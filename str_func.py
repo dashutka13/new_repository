@@ -15,5 +15,3 @@ def text_title():
     text = input("Ввод: \n")
     new_text = text.title()
     return new_text
-
-
