@@ -1,8 +1,17 @@
 def text_upper():
     """
-    заглавные буквы все
+    Все заглавные буквы
+    :return:
     """
     text = input("Ввод: \n")
     new_text = text.upper()
     return new_text
 
+
+def text_title():
+    """
+    заглавные буквы первые
+    """
+    text = input("Ввод: \n")
+    new_text = text.title()
+    return new_text
